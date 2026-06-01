@@ -948,8 +948,8 @@ case 'download': {
     
     // 1. GENERATE RANDOM LOGO (Add your URLs here)
     const logos = [
-        "https://files.catbox.moe/5ncuwv.jpeg", 
-        "https://files.catbox.moe/5ncuwv.jpeg",
+        "https://files.catbox.moe/7ps2m5.jpeg", 
+        "https://files.catbox.moe/7ps2m5.jpeg",
         config.LOGO // Fallback to config logo
     ];
     const randomLogo = logos[Math.floor(Math.random() * logos.length)] || logos[0];
