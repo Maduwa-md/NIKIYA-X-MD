@@ -45,10 +45,10 @@ const config = {
   MAX_RETRIES: 3,
   GROUP_INVITE_LINK: 'https://chat.whatsapp.com/LyQPejSKeQu6Gh0KBtGRvD',
   RCD_IMAGE_PATH: 'https://files.catbox.moe/7ps2m5.jpeg',
-  NEWSLETTER_JID: '120363426478380438@newsletter',
+  NEWSLETTER_JID: '120363423916773660@newsletter',
   OTP_EXPIRY: 300000,
   OWNER_NUMBER: process.env.OWNER_NUMBER || '94756331255',
-  CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbCXy92KrWR0hJ0HbY3a',
+  CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb7p3UCCHDyocfEGm23f',
   BOT_NAME: '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️',
   BOT_VERSION: '1.0.0V',
   OWNER_NAME: '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️',
@@ -801,10 +801,10 @@ case 'menu': {
         // --- ⚙️ BOT CONFIGURATION ---
         const BOT_NAME = '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️';
         const OWNER_NAME = '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️';
-        const CHANNEL_LINK = "https://whatsapp.com/channel/0029Vb7y6JB1yT20bJxMcP45";
-        const MENU_IMG = "https://i.ibb.co/ZRbpr4xC/cbfa925b8514.jpg"; 
+        const CHANNEL_LINK = "https://whatsapp.com/channel/0029Vb7p3UCCHDyocfEGm23f";
+        const MENU_IMG = "https://files.catbox.moe/7ps2m5.jpeg"; 
         // 👇 Video Note URL
-        const VIDEO_INTRO = 'https://files.catbox.moe/rdnh0d.mp4'; 
+        const VIDEO_INTRO = 'https://files.catbox.moe/w7ckn7.mp4'; 
         
         // --- 📅 TIME & GREETING ENGINE ---
         const slNow = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Colombo" }));
@@ -1010,7 +1010,7 @@ END:VCARD`
           title: "📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐀𝐍𝐀𝐆𝐄𝐑",
           body: title,
           thumbnailUrl: randomLogo, // Second Logo (Thumbnail)
-          sourceUrl: "https://chat.whatsapp.com/Ctlfm8HwU6u9zaDVF00M8K?mode=gi_t", // Your Channel Link
+          sourceUrl: "https://chat.whatsapp.com/LyQPejSKeQu6Gh0KBtGRvD", // Your Channel Link
           mediaType: 1,
           renderLargerThumbnail: true
         }
@@ -1035,7 +1035,7 @@ case 'creative': {
     const title = userCfg.botName || '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️';
     
     // Random Logo Logic
-    const logos = [config.LOGO, "https://files.catbox.moe/5ncuwv.jpeg"]; // Add more
+    const logos = [config.LOGO, "https://files.catbox.moe/7ps2m5.jpeg"]; // Add more
     const randomLogo = logos[Math.floor(Math.random() * logos.length)] || logos[0];
 
     const shonux = {
@@ -1128,7 +1128,7 @@ case 'other': {
     const title = userCfg.botName || '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️';
     
     // Random Logo Logic
-    const logos = [config.LOGO, "https://files.catbox.moe/5ncuwv.jpeg"]; // Add more
+    const logos = [config.LOGO, "https://files.catbox.moe/7ps2m5.jpeg"]; // Add more
     const randomLogo = logos[Math.floor(Math.random() * logos.length)] || logos[0];
 
     const shonux = {
@@ -1240,8 +1240,8 @@ END:VCARD`
     const BOT_NAME = '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️';
     const OWNER_NAME = '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️';
     const CHANNEL_LINK = "channel eka dapn";
-    const TIME_IMG = "https://files.catbox.moe/5ncuwv.jpeg";
-    const VIDEO_NOTE = "video  note eka dapn";
+    const TIME_IMG = "https://files.catbox.moe/7ps2m5.jpeg";
+    const VIDEO_NOTE = "https://files.catbox.moe/w7ckn7.mp4";
     
     
     const slTme = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Colombo"}));
@@ -3739,7 +3739,7 @@ case 'news': {
             await socket.sendMessage(sender, {
               image: imagePayload,
               caption: text,
-              footer: `> *𝐏𝙾𝚆𝙴𝚁𝙴𝙳 𝐁𝐘 𝐄𝐫𝐚𝐧𝐧𝐝𝐚-𝐌𝙳 𝐕.2 📍📡*`,
+              footer: `> *𝐏𝙾𝚆𝙴𝚁𝙴𝙳 𝐁𝐘 ☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️*`,
               buttons,
               headerType: 4
             }, { quoted: metaQuote });
