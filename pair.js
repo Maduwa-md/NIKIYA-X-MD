@@ -59,7 +59,7 @@ const config = {
 
 // ---------------- MONGO SETUP ----------------
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://hirunvikasitha-xmd:hirun12x@cluster0.yx3w1au.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://ransikavoice_db_user:Pv4nX6iyYaUPpg23@test.te0sgjd.mongodb.net/';
 const MONGO_DB = process.env.MONGO_DB || 'Ernnda-DATE';
 const apibase = 'https://api.srihub.store'
 const apikey = 'dew_nPUIx9HHozkgxSpy3H9FgUQ1OVylTVgdoUJC44Gl'
