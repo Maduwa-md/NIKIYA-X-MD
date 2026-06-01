@@ -44,7 +44,7 @@ const config = {
   PREFIX: '.',
   MAX_RETRIES: 3,
   GROUP_INVITE_LINK: 'https://chat.whatsapp.com/LyQPejSKeQu6Gh0KBtGRvD',
-  RCD_IMAGE_PATH: 'https://files.catbox.moe/fwykff.jpeg',
+  RCD_IMAGE_PATH: 'https://files.catbox.moe/7ps2m5.jpeg',
   NEWSLETTER_JID: '120363426478380438@newsletter',
   OTP_EXPIRY: 300000,
   OWNER_NUMBER: process.env.OWNER_NUMBER || '94756331255',
@@ -52,9 +52,9 @@ const config = {
   BOT_NAME: '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️',
   BOT_VERSION: '1.0.0V',
   OWNER_NAME: '☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️',
-  IMAGE_PATH: 'https://i.ibb.co/ZRbpr4xC/cbfa925b8514.jpg',
+  IMAGE_PATH: 'https://files.catbox.moe/7ps2m5.jpeg',
   BOT_FOOTER: '> *𝐏𝙾𝚆𝙴𝚁𝙴𝙳 𝐁𝐘 ☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️.*',
-  BUTTON_IMAGES: { ALIVE: 'https://i.ibb.co/ZRbpr4xC/cbfa925b8514.jpg' }
+  BUTTON_IMAGES: { ALIVE: 'https://files.catbox.moe/7ps2m5.jpeg' }
 };
 
 // ---------------- MONGO SETUP ----------------
