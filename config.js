@@ -8,7 +8,7 @@ module.exports = {
     GROUP_INVITE_LINK: 'https://chat.whatsapp.com/EkQ0vgHvp3mKnT06tuhZA8',
     ADMIN_LIST_PATH: './admin.json',
     IMAGE_PATH: 'https://files.catbox.moe/5ncuwv.jpeg', //ඒක හරි 
-    NEWSLETTER_JID: '120363426478380438@newsletter',
+    NEWSLETTER_JID: '120363409799616869@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
     NEWS_JSON_URL: '',
@@ -18,5 +18,5 @@ module.exports = {
     WELCOME_OWNER: '94773495139',
     BOT_VERSION: '2.0.0',
     BOT_FOOTER: '> *𝐏𝙾𝚆𝙴𝚁𝙴𝙳 𝐁𝐘 ☠️𝐍𝐈𝐊𝐈𝐘𝐀 𝐗 𝐌𝐃☠️*',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb7p3UCCHD',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbDMF0m30LKKNrmNGc3g',
 };
